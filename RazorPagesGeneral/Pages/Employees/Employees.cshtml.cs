@@ -15,6 +15,7 @@ namespace RazorPagesGeneral.Pages.Employees
         public IEnumerable<Employee> Employees { get; set; }
         public void OnGet()
         {
+            // получить список сотрудников
             Employees = this.db.GetAllEmployees();
         }
     }
