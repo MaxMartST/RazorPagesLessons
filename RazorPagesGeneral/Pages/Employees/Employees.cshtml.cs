@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+п»їusing System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using RazorPagesLessons.Models;
 using RazorPagesLessons.Services;
@@ -15,7 +15,7 @@ namespace RazorPagesGeneral.Pages.Employees
         public IEnumerable<Employee> Employees { get; set; }
         public void OnGet()
         {
-            // получить список сотрудников
+            // РїРѕР»СѓС‡РёС‚СЊ СЃРїРёСЃРѕРє РІСЃРµС… СЃРѕС‚СЂСѓРґРЅРёРєРѕРІ
             Employees = this.db.GetAllEmployees();
         }
     }
